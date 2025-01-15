@@ -1,0 +1,20 @@
+[package]
+name = "socketio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#tracing = "0.1.37"
+#strum={ version= "0.25.0", features=["derive"]}  # https://stackoverflow.com/questions/69015213/how-can-i-display-an-enum-in-lowercase
+#strum_macros = "0.25.1"
+#chrono = { version = "0.4.26", features = ["serde"]}
+#crossbeam = "0.8.0"
+#tungstenite = {version = "0.21.0", features = ["rustls-tls-webpki-roots"] }
+#native-tls = "0.2.4"
+serde = { version = "1.0.175", features = ["derive"] }
+serde_json = "1.0.103"
+#url = "2.1.1"
+
+tokio = {version = "1.43.0", features = ["full"]}
+rust_socketio = {version = "0.6.0", features = ["async"]}
+futures-util = "0.3.28"
